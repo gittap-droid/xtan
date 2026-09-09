@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xtan Privacy Notice</title>
+<style>
+  :root {
+    --brand: #D08AFF;
+    --brand-deep: #9B5FC8;
+    --brand-soft: #E8C8FF;
+    --bg: #F7F0FC;
+    --bg-card: #FFFFFF;
+    --ink: #2A2133;
+    --muted: #5E5268;
+    --line: #E2D4EE;
+    --wash: linear-gradient(165deg, #FBF6FF 0%, #F0E4FA 48%, #E8D6F5 100%);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--wash);
+    line-height: 1.65;
+    font-size: 16px;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 28px 20px 64px;
+  }
+  header.hero {
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 28px 24px;
+    box-shadow: 0 12px 40px rgba(155, 95, 200, 0.08);
+    position: relative;
+    overflow: hidden;
+  }
+  header.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 6px;
+    background: linear-gradient(180deg, var(--brand), var(--brand-deep));
+  }
+  .eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--brand-deep);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  h1 {
+    margin: 0 0 12px;
+    font-size: clamp(1.55rem, 4vw, 1.95rem);
+    line-height: 1.25;
+    color: var(--ink);
+  }
+  .lede {
+    margin: 0;
+    color: var(--muted);
+    max-width: 58ch;
+  }
+  .meta-strip {
+    margin-top: 22px;
+    display: grid;
+    gap: 10px;
+    padding: 14px 16px;
+    background: linear-gradient(120deg, rgba(208, 138, 255, 0.12), rgba(232, 200, 255, 0.28));
+    border-radius: 12px;
+    border: 1px solid var(--brand-soft);
+  }
+  .meta-strip p {
+    margin: 0;
+    font-size: 0.92rem;
+    color: var(--ink);
+  }
+  .meta-strip a { color: var(--brand-deep); word-break: break-all; }
+  nav.toc {
+    margin: 28px 0 8px;
+    padding: 18px 18px 8px;
+    background: var(--bg-card);
+    border-radius: 14px;
+    border: 1px solid var(--line);
+  }
+  nav.toc strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+  }
+  nav.toc ol {
+    margin: 0;
+    padding: 0 0 8px 18px;
+    color: var(--muted);
+  }
+  nav.toc li { margin-bottom: 6px; }
+  nav.toc a {
+    color: var(--brand-deep);
+    text-decoration: none;
+  }
+  nav.toc a:hover { text-decoration: underline; }
+  article section {
+    margin-top: 28px;
+    padding: 22px 20px;
+    background: var(--bg-card);
+    border-radius: 14px;
+    border: 1px solid var(--line);
+  }
+  h2 {
+    margin: 0 0 12px;
+    font-size: 1.2rem;
+    color: var(--brand-deep);
+    border-bottom: 2px solid var(--brand-soft);
+    padding-bottom: 8px;
+  }
+  h3 {
+    margin: 18px 0 8px;
+    font-size: 1.02rem;
+    color: var(--ink);
+  }
+  p { margin: 0 0 12px; color: var(--ink); }
+  ul, ol {
+    margin: 0 0 12px;
+    padding-left: 1.2em;
+    color: var(--ink);
+  }
+  li { margin-bottom: 6px; }
+  .note {
+    margin-top: 14px;
+    padding: 12px 14px;
+    background: var(--bg);
+    border-left: 3px solid var(--brand);
+    border-radius: 0 10px 10px 0;
+    font-size: 0.94rem;
+    color: var(--muted);
+  }
+  footer {
+    margin-top: 36px;
+    text-align: center;
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+  footer a { color: var(--brand-deep); }
+  @media (max-width: 520px) {
+    .wrap { padding: 18px 14px 48px; }
+    header.hero, article section, nav.toc { padding-left: 16px; padding-right: 16px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <span class="eyebrow">Xtan · Craft community</span>
+      <h1>How Xtan Handles Your Craft Space Data</h1>
+      <p class="lede">
+        This Privacy Notice explains what information may appear when you browse DIY feeds,
+        share project photos or clips, exchange messages, or use device features such as the
+        camera inside Xtan. Xtan is built so you can explore the craft community without being
+        required to create a mandatory profile system to open and use core screens.
+      </p>
+      <div class="meta-strip">
+        <p><strong>Questions about this notice:</strong> <a href="mailto:marigold.riftweave@loomkiln.app">marigold.riftweave@loomkiln.app</a></p>
+        <p>Operator of the Xtan mobile experience for this notice: the Xtan product team reachable at the address above.</p>
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="Sections">
+      <strong>On this page</strong>
+      <ol>
+        <li><a href="#scope">What this notice covers</a></li>
+        <li><a href="#signals">Signals that may arise while you craft and chat</a></li>
+        <li><a href="#device">Device capabilities you may allow</a></li>
+        <li><a href="#purpose">Why those signals are processed</a></li>
+        <li><a href="#storage">Where information may sit on your device or travel</a></li>
+        <li><a href="#partners">Helpers outside the Xtan binary</a></li>
+        <li><a href="#safeguards">Practical safeguards we apply</a></li>
+        <li><a href="#retention">How long material may remain available</a></li>
+        <li><a href="#choices">Choices you can exercise</a></li>
+        <li><a href="#youth">Younger audiences</a></li>
+        <li><a href="#updates">When this notice changes</a></li>
+        <li><a href="#reach">Reach the team</a></li>
+      </ol>
+    </nav>
+
+    <article>
+      <section id="scope">
+        <h2>What this notice covers</h2>
+        <p>
+          Xtan is a mobile craft and maker community experience. People browse project posts,
+          publish image or video work-in-progress, react with likes and favorites, leave comments
+          and stickers, follow makers they enjoy, manage block and report actions, receive inbox
+          style notices, and converse in one-to-one or group style chats that may include text,
+          images, short video, and call-style camera sessions presented inside the app.
+        </p>
+        <p>
+          Opening Xtan does not depend on a forced membership gate. You may use available community
+          and messaging surfaces under the product rules described in the companion Terms of Use.
+          This notice focuses on privacy-related processing connected to those surfaces and to
+          device permissions you choose to grant.
+        </p>
+        <div class="note">
+          We describe practices in careful language. No mobile product can guarantee that every
+          technical risk is eliminated; we explain what we intend to do and the limits that still apply.
+        </div>
+      </section>
+
+      <section id="signals">
+        <h2>Signals that may arise while you craft and chat</h2>
+        <p>
+          Depending on how you use Xtan, the following categories may be involved. Not every
+          category is created for every person on every visit.
+        </p>
+        <h3>Craft posts and reactions</h3>
+        <ul>
+          <li>Titles, captions, and other text you place on a DIY post.</li>
+          <li>Photos or videos you attach as cover media or detail media for a project.</li>
+          <li>Interaction records such as likes, favorites, comments, emoticon tokens, follows, blocks, and reports you initiate.</li>
+        </ul>
+        <h3>Messaging and call sessions</h3>
+        <ul>
+          <li>Message bodies, media attachments, and recall or view actions within chat threads.</li>
+          <li>Group conversation labels and membership lists that appear in your chat list.</li>
+          <li>Transient camera preview and audio capture during video recording or call-style screens, while those features are active.</li>
+        </ul>
+        <h3>Inbox style notices</h3>
+        <ul>
+          <li>Notification text about community events such as comments, follows, or stranger leave-message style alerts when those surfaces are enabled in the product.</li>
+        </ul>
+        <h3>On-device gesture checks</h3>
+        <ul>
+          <li>
+            When a face-nod style liveness or attentiveness check is presented, the front camera
+            stream may be analyzed on the device with computer-vision techniques to detect a nod
+            gesture. The purpose is a short safety or attentiveness confirmation related to
+            community use. Face video from that check is intended to be processed locally for the
+            gesture result and is not designed as a lasting biometric archive uploaded by default.
+          </li>
+        </ul>
+        <h3>Technical and preference residue</h3>
+        <ul>
+          <li>Local preference flags, seed or cache version markers, draft media file names, and similar app state kept in local storage on your device.</li>
+          <li>Device permission status for camera, microphone, and photo library as reported by the operating system.</li>
+          <li>Crash or diagnostic fragments that the operating system or development tooling may surface when the app fails, which can include device model and OS version.</li>
+        </ul>
+      </section>
+
+      <section id="device">
+        <h2>Device capabilities you may allow</h2>
+        <p>
+          Xtan requests system permissions only when a feature needs them. You can deny a permission;
+          related features may then be unavailable until you change the setting in system controls.
+        </p>
+        <ul>
+          <li><strong>Camera.</strong> Used to capture craft photos, record short project videos, run face-nod style on-device checks when shown, and present call-style camera previews.</li>
+          <li><strong>Microphone.</strong> Used when recording video with sound or during call-style sessions that include voice.</li>
+          <li><strong>Photo library read access.</strong> Used when you pick existing images or videos for posts or chat attachments.</li>
+          <li><strong>Photo library write access.</strong> Used when you choose to save an image or video from the app into your library.</li>
+        </ul>
+        <p>
+          Permission prompts and system settings remain under your control. Xtan does not need
+          continuous background camera or microphone access for ordinary feed browsing.
+        </p>
+      </section>
+
+      <section id="purpose">
+        <h2>Why those signals are processed</h2>
+        <p>We process the categories above for purposes that match the craft community product:</p>
+        <ul>
+          <li>Displaying feeds, post detail pages, comments, and maker interaction states.</li>
+          <li>Delivering chat threads, media messages, and call-style previews you start.</li>
+          <li>Showing inbox notices tied to community activity.</li>
+          <li>Supporting safety tools such as block and report flows and short on-device gesture checks when presented.</li>
+          <li>Remembering local preferences and cached media so the app can reopen in a coherent state.</li>
+          <li>Improving reliability by reviewing crash or error patterns when they are available to the operator.</li>
+          <li>Responding to inquiries you send to <a href="mailto:marigold.riftweave@loomkiln.app">marigold.riftweave@loomkiln.app</a>.</li>
+        </ul>
+        <p>
+          We do not treat browsing the DIY feed as a license to sell your personal information as a
+          standalone commodity. Processing is oriented to operating and safeguarding the Xtan experience.
+        </p>
+      </section>
+
+      <section id="storage">
+        <h2>Where information may sit on your device or travel</h2>
+        <h3>Local persistence</h3>
+        <p>
+          Much of the demo and early-product behavior of Xtan stores community content, chat history,
+          preference flags, and media file references in the application sandbox on your device
+          (for example Documents-style storage and secure key storage facilities provided by the OS).
+          Clearing app data or removing the app typically removes that local residue, subject to
+          how your device and OS manage backups.
+        </p>
+        <h3>Network paths</h3>
+        <p>
+          When network features are enabled in a given build, posts, messages, media, and interaction
+          events may be transmitted to servers that host community content so other participants can
+          see what you publish. Transmission uses industry-common transport protections where the
+          platform and hosting stack support them. Absolute immunity from interception or misuse
+          cannot be promised for any networked application.
+        </p>
+        <h3>On-device vision for face-nod checks</h3>
+        <p>
+          Face-nod analysis is designed to evaluate a live gesture on the device. The resulting
+          pass or fail state may be retained as a local product flag. Continuous face video from
+          that check is not intended to be uploaded as a default cloud biometric library.
+        </p>
+      </section>
+
+      <section id="partners">
+        <h2>Helpers outside the Xtan binary</h2>
+        <p>
+          Xtan relies on Apple platform frameworks for camera capture, photo library access,
+          microphone input, on-device vision analysis, and secure storage. Those frameworks operate
+          under Apple’s terms and system privacy controls.
+        </p>
+        <p>
+          If a future release integrates hosting, content delivery, crash reporting, or similar
+          infrastructure vendors, those vendors would process only what is needed to provide their
+          contracted function and would be expected to apply reasonable confidentiality and security
+          commitments. This notice will be updated when such integrations materially change what
+          leaves your device.
+        </p>
+        <p>
+          We may disclose information when required by applicable laws, lawful process, or to
+          protect the safety of people using Xtan or the integrity of the service, using competent
+          dispute resolution bodies or authorities as relevant.
+        </p>
+      </section>
+
+      <section id="safeguards">
+        <h2>Practical safeguards we apply</h2>
+        <ul>
+          <li>Limiting permission prompts to features that need them.</li>
+          <li>Preferring on-device processing for face-nod style gesture checks.</li>
+          <li>Using OS-provided secure storage facilities for sensitive local tokens or flags when the product requires them.</li>
+          <li>Access controls and review practices on operator systems that handle support mail or hosted content, where such systems exist.</li>
+        </ul>
+        <p>
+          These measures reduce risk; they do not create an absolute shield against every form of
+          unauthorized access, device compromise, or third-party failure.
+        </p>
+      </section>
+
+      <section id="retention">
+        <h2>How long material may remain available</h2>
+        <p>
+          Local drafts, caches, and preference flags generally remain until you clear app data,
+          remove the app, or the product overwrites them during normal operation.
+        </p>
+        <p>
+          Published craft posts, comments, chat messages, and related media remain available while
+          they are part of the active community dataset for that installation or hosted environment,
+          unless you delete them through in-product controls where offered, or the operator removes
+          them for safety, legal, or operational reasons.
+        </p>
+        <p>
+          Report and block records may be kept for a period reasonably needed to evaluate misuse
+          and protect other makers. Retention periods may vary with applicable laws and the nature
+          of the content.
+        </p>
+      </section>
+
+      <section id="choices">
+        <h2>Choices you can exercise</h2>
+        <ul>
+          <li>Revoke camera, microphone, or photo library access in system Settings; related Xtan features will stop working until restored.</li>
+          <li>Avoid attaching media or limit what you write in posts and chats.</li>
+          <li>Use block and report tools when another participant’s content or contact is unwanted.</li>
+          <li>Remove locally stored app data by deleting the app or clearing storage through device tools.</li>
+          <li>Email <a href="mailto:marigold.riftweave@loomkiln.app">marigold.riftweave@loomkiln.app</a> to ask about access, correction, or deletion of personal information that the operator can reasonably locate and control.</li>
+        </ul>
+        <p>
+          Because Xtan does not impose a mandatory membership gate to open the app, many preferences
+          live on the device itself. Responses to privacy requests will reflect what the operator
+          can actually retrieve for your device or correspondence.
+        </p>
+      </section>
+
+      <section id="youth">
+        <h2>Younger audiences</h2>
+        <p>
+          Xtan is intended for adults who participate in a maker community. The product is not
+          directed at children under 13, and we do not knowingly seek personal information from
+          children under 13. If you believe a child has provided personal information through Xtan,
+          contact <a href="mailto:marigold.riftweave@loomkiln.app">marigold.riftweave@loomkiln.app</a>
+          so appropriate steps can be considered, including deletion where feasible.
+        </p>
+        <p>
+          Where applicable laws set a higher age of digital consent, we expect guardians and older
+          teens to follow those rules when using craft sharing and messaging features.
+        </p>
+      </section>
+
+      <section id="updates">
+        <h2>When this notice changes</h2>
+        <p>
+          Craft products evolve. When we change how Xtan handles information in a meaningful way,
+          we will revise this HTML notice and make the updated version available in or alongside
+          the app. Continued use after an update means you have had an opportunity to review the
+          revised text.
+        </p>
+        <p>
+          The version you are reading became operative on <strong>September 8, 2026</strong>.
+          Earlier copies no longer describe current practice once replaced.
+        </p>
+      </section>
+
+      <section id="reach">
+        <h2>Reach the team</h2>
+        <p>
+          For privacy questions, requests, or concerns about craft posts, chat media, device
+          permissions, or this notice, write to:
+        </p>
+        <p><a href="mailto:marigold.riftweave@loomkiln.app">marigold.riftweave@loomkiln.app</a></p>
+        <p>
+          We aim to respond within a reasonable time under applicable laws and relevant regulatory
+          requirements. Include enough detail for us to understand the device, feature, and issue
+          you are describing.
+        </p>
+      </section>
+    </article>
+
+    <footer>
+      <p>Xtan Privacy Notice · lilac craft edition</p>
+      <p><a href="mailto:marigold.riftweave@loomkiln.app">marigold.riftweave@loomkiln.app</a></p>
+    </footer>
+  </div>
+</body>
+</html>
